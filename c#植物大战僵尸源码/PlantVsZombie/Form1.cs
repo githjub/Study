@@ -31,12 +31,16 @@ namespace PlantVsZombie
                 if (!gardenForm.Visible)
                 {
                     gardenForm.Visible = true;
+                    //test
                 }
             }
 
 
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
